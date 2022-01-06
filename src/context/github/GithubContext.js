@@ -12,7 +12,6 @@ export const GithubProvider = ({ children }) => {
 
   //dispatch an action to reducer
   const [state, dispatch] = useReducer(githubReduer, intialState)
-  console.log(111)
 
   //get initial users (testing)
   // const fetchUsers = async () => {
